@@ -1,0 +1,27 @@
+body {
+    background-color: #212121;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #b3b3b3;
+    width: 100%;
+}
+
+.heading{
+    margin: 0px;
+    padding: 15px;
+    background-color: #1db954;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.checked-boxes{
+    height: 2cm;
+}
+
+.search-results{
+    background-color:	#535353;
+    padding: 10px;
+    border-color: #121212;
+}

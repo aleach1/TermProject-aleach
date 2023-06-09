@@ -16,6 +16,10 @@ body {
     
 }
 
+.search{
+    margin-left: 25px;
+}
+
 .checked-boxes{
     height: 2cm;
 }
@@ -24,4 +28,6 @@ body {
     background-color:	#535353;
     padding: 10px;
     border-color: #121212;
+    margin-left: 25px;
+    width: 40%;
 }

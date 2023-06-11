@@ -17,17 +17,18 @@ body {
 }
 
 .search{
-    margin-left: 25px;
+    margin-left: 2.5%;
 }
 
 .checked-boxes{
-    height: 2cm;
+    min-height: 2cm;
 }
 
 .search-results{
     background-color:	#535353;
     padding: 10px;
     border-color: #121212;
-    margin-left: 25px;
+    border-radius: 25px;
+    margin-left: 2.5%;
     width: 40%;
 }

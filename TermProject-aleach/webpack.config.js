@@ -79,15 +79,16 @@ module.exports = {
       new copyPlugin({
         patterns: [
           {
-            from: path.resolve(__dirname, "src/assets/images"),
-            to: path.resolve(__dirname, "dist/assets/images"),
+            from: path.resolve(__dirname, "src/assets"),
+            to: path.resolve(__dirname, "dist/assets"),
           },
         ],
       }),
       /* app uses global SERVER_URL rather than process.env.SERVER_URL */
       new webpack.DefinePlugin({
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-        SERVER_URL: JSON.stringify(process.env.SERVER_URL),
+        CLIENT_ID: JSON.stringify(process.env.CLIENT_ID),
+        CLIENT_SECRET: JSON.stringify(process.env.CLIENT_SECRET),
       }),
     ],
     /* separates js (and css) that is shared between bundles - allows browser to cache */

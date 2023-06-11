@@ -30,5 +30,15 @@ body {
     border-color: #121212;
     border-radius: 25px;
     margin-left: 2.5%;
-    width: 40%;
+    min-width: 40%;
+}
+
+.search-image{
+    display: inline;
+    width: 40px;
+    height: 40px;
+}
+
+.search-result{
+    display: inline;
 }

@@ -3,4 +3,3 @@ import '../css/styles.css';
 
 import bootstrap from "bootstrap";
 
-console.log('General JS File');

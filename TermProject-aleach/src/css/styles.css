@@ -20,8 +20,27 @@ body {
     margin-left: 2.5%;
 }
 
+.add-playlist{
+    float: right;
+    background-color: #1db954;
+    border-radius: 25px;
+    font-size: large;
+    margin-right: 40px;
+}
+
 .checked-boxes{
+    padding: 40px 0;
     min-height: 2cm;
+}
+
+.seed{
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #535353;
+    display: inline;
+    margin-right: 40px;
+    margin-top: 400px;
 }
 
 .search-results{
@@ -31,6 +50,10 @@ body {
     border-radius: 25px;
     margin-left: 2.5%;
     min-width: 40%;
+}
+
+.recommended{
+    padding: 40px 0;
 }
 
 .search-image{
